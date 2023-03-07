@@ -12,8 +12,8 @@ class Solution {
 public:
 
     void insert(int data, ListNode* head){
-    ListNode* n = NULL;
-    n = new ListNode();
+    ListNode* n = new ListNode();
+   
     n->val = data;
     if (head ==  NULL){
         head = n;
